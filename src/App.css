@@ -2,37 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(255,255,255) ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(46,46,46);
+  font-family: 'merriweather';
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* App.css */
+
+.start {
+  font-size: 18px;
+  background-color: rgb(245,248,250); /* Grey background color */
+  height: 37vh; /* 10% of viewport height */
+  padding: 30px; /* Optional padding for content */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+
+
+.circular-photo {
+  width: 200px; /* Adjust the width of your photo */
+  height: 200px; /* Adjust the height of your photo */
+  border-radius: 50%; /* Make it circular by setting border-radius to 50% */
+  border: 2px solid #333; /* Add a border (customize as needed) */
+  display: block; /* Center the image horizontally */
+  margin: 20px auto; /* Add margin to center the photo vertically */
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.me {
+  margin-top: 30px;
+  margin-left: 280px;
+  margin-right: 100px;
+  font-family: 'merriweather';
+  text-align: justify;
+  letter-spacing: 0.01rem;
+  line-height: 1.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme {
+  flex: 1;
+  padding: 10px;
+  
+}
+
+.contact {
+  margin-left: 100px;
+  font-family: 'merriweather';
+  text-align: justify;
+  flex: 1;
+  padding: 20px;
+  
+}
+
+
+.sticky-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between icons and text */
+}
+
+.icon svg {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.footer {
+  text-align: center; /* Center-align the footer content */
+}
+
+.footer-content {
+  font-family: 'merriweather';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

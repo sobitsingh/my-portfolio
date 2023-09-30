@@ -1,0 +1,56 @@
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+h2, a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h3, h4, .banner-more{
+   color:#aaaaaa;
+}
+
+span{
+    color: #0096cc;
+}
+
+
+
+.icon a{
+    font-size: 24px;
+}
+.icon a, .contact-label{
+    color: #000000;
+    font-weight: 400;
+}
+
+
+.contact-label{
+    font-size: 18px;
+}
+
+
+a:hover, .contact-label:hover{
+   color: #0096cc;
+   cursor: pointer;
+   transform: scale(1.2);
+}
+
+.banner-more{
+    font-size: 18px;
+}
+
+
+.contact {
+   text-align: justify;
+   padding-left: 64px;    
+  }
+
+@media (max-width: 767px){
+    .contact{
+        padding-left: 0;
+    }
+}

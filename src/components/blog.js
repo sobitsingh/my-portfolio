@@ -1,16 +1,28 @@
-// App.js
-
-import React from "react";
 
 import Navbar from './navbar';
+import React, { useEffect, useState } from 'react';
 
-const App = () => {
-	return (
-		<div className="main-container" style={{backgroundColor: "aliceblue"}}>
-			
-			
-		</div>
-	);
-};
 
-export default App;
+// Fetch the content of your blog post (replace with your own API or method)
+
+
+
+function Blog() {
+  const [post, setPost] = useState(null);
+
+ 
+
+  return (
+    <div>
+      <a href='https://disqus.com/home/discussion/channel-discusstech/deploy_static_websites_to_amazon_s3/'>My</a>
+    </div>
+  );
+}
+
+export default Blog;
+
+
+
+
+
+

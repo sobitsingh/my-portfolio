@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -13,7 +14,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(46,46,46);
-  font-family: 'merriweather';
+  /* font-family: 'merriweather'; */
 }
 
 .App-link {
@@ -23,9 +24,9 @@
 /* App.css */
 
 .start {
-  font-size: 18px;
+  font-size: 16px;
   background-color: rgb(245,248,250); /* Grey background color */
-  height: 37vh; /* 10% of viewport height */
+  height: 46vh; /* 10% of viewport height */
   padding: 30px; /* Optional padding for content */
   box-sizing: border-box; /* Include padding in height calculation */
 }
@@ -36,40 +37,24 @@
   width: 200px; /* Adjust the width of your photo */
   height: 200px; /* Adjust the height of your photo */
   border-radius: 50%; /* Make it circular by setting border-radius to 50% */
-  border: 2px solid #333; /* Add a border (customize as needed) */
+  border: 12px solid #e3eaf2; /* Add a border (customize as needed) */
   display: block; /* Center the image horizontally */
   margin: 20px auto; /* Add margin to center the photo vertically */
   margin-bottom: 20px;
   object-fit: cover;
 }
 
+
+
 .me {
-  margin-top: 30px;
-  margin-left: 280px;
-  margin-right: 100px;
-  font-family: 'merriweather';
+  margin-top: 24px;
   text-align: justify;
   letter-spacing: 0.01rem;
   line-height: 1.75rem;
+  padding-top: 24px;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
-
-.aboutme {
-  flex: 1;
-  padding: 10px;
-  
-}
-
-.contact {
-  margin-left: 100px;
-  font-family: 'merriweather';
-  text-align: justify;
-  flex: 1;
-  padding: 20px;
-  
-}
-
 
 .sticky-footer {
   position: absolute;

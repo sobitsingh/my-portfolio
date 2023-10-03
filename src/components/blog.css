@@ -1,0 +1,37 @@
+.blog1 {
+    font-size: 16px;
+    background-color: rgb(245, 248, 250); /* Grey background color */
+    height: 20vh; /* 10% of viewport height */
+    padding: 30px; /* Optional padding for content */
+    box-sizing: border-box; /* Include padding in height calculation */
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+    font-family: 'Merriweather', serif;
+  }
+  
+  .blog1:hover {
+    background-color: rgb(220, 220, 220); /* Change background color on hover */
+  }
+  
+  .blog1-link {
+    display: block; /* Make the entire div clickable */
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color from parent */
+    font-family: 'Merriweather', serif;
+  }
+  
+  /* Add your background image */
+  
+  
+  
+  /* Style the content */
+  .author,
+  .article-title,
+  .link {
+    position: relative; /* Create a stacking context for z-index */
+    z-index: 1; /* Place the content above the background */
+    font-family: 'Merriweather', serif;
+  }
+  

@@ -4,24 +4,24 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Homepage from './components/homepage';
+import Homepage from './components/homepage.js';
 import Blog from './components/blog';
-import { Routes, Route } from 'react-router-dom'; 
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Navbar/>
-        <Routes> {/* Wrap your Routes */}
-        <Route path="/" element={<Homepage />} />
-          <Route path='/blog' element={<Blog />} />
-        </Routes>
-      </div>
-      <header class="bg-splash-gray px3 py3 border-bottom border-light-gray"></header>
-     
-      
+        <div>
+          <Navbar />
+          <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/blog" element={<Blog />} />
+          
+          </Routes>
+        </div>
+
+      <header className="bg-splash-gray px3 py3 border-bottom border-light-gray"></header>
     </div>
   );
 }

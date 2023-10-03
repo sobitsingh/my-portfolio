@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 86px;
+    color: #272829;
+}
+
+h2{
+    color: #A8A196;
+    text-shadow: 0px 0px 1px #A8A196;
+}
+
+.banner{
+    /* background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2187&q=80"); */
+    height: calc(100vh - 70px);
+    width: 100%;
+}
+
+.contact-list{
+    position: absolute;
+    background: #FFFF;
+    list-style: none;
+    border-radius: 8px;
+    padding: 0;
+    top: 30%;
+    left: 0%;
+}
+
+.contact-list li{
+    padding: 12px;
+    margin: 18px;
+    font-size: 34px;
+    /* background: red; */
+}
+
+.contact-list a{
+    color: #272829;
+}
+
+.contact-list li:hover ,a:hover{
+    color: #dadd57;
+    /* background: #ecef41; */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@media(max-width: 1240px){
+    .banner{
+        padding: 64px;
+        margin: 0 auto;
+    }
+
+    .contact-list{
+        top: 40%;
+    }
+}

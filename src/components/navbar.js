@@ -1,14 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link
 import './navbar.css';
-
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg my-navbar shadow-sm p-3 bg-body-tertiary rounded">  
+    <nav className="navbar navbar-expand-lg my-navbar shadow-sm p-3 bg-body-tertiary rounded">
       <div className="navbar-left">
         <ul className="navbar-nav">
           <li className='nav-item'>
-            <a className='nav-link' href='/'>SOBIT SINGH</a>
+            <Link to="/" className='nav-link'>SOBIT SINGH</Link> {/* Use Link */}
           </li>
         </ul>
       </div>
@@ -16,14 +16,13 @@ const Navbar = () => {
       <div className="navbar-right">
         <ul className='navbar-nav'>
           <li className="nav-item">
-            
-            <a className="nav-link" href="./blog">BLOG</a>
+            <Link to="/blog" className="nav-link">BLOG</Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/projects">PROJECTS</a>
+            <Link to="/projects" className="nav-link">PROJECTS</Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/cv">CV</a>
+            <Link to="/cv" className="nav-link">CV</Link> {/* Use Link */}
           </li>
         </ul>
       </div>

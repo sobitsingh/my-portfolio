@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Merriweather', serif;
 }
 
@@ -17,19 +17,19 @@
   /* font-family: 'merriweather'; */
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 /* App.css */
 
-.start {
+/* .start {
   font-size: 16px;
   background-color: rgb(245,248,250); /* Grey background color */
   height: 46vh; /* 10% of viewport height */
   padding: 30px; /* Optional padding for content */
   box-sizing: border-box; /* Include padding in height calculation */
-}
+ */
 
 
 

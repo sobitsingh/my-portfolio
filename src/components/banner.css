@@ -4,6 +4,7 @@ h1{
     letter-spacing: 3px;
     font-size: 86px;
     color: #272829;
+    
 }
 
 h2{
@@ -55,3 +56,50 @@ h2{
         top: 40%;
     }
 }
+@media(max-width: 768px){
+    .banner {
+        padding: 32px; /* Adjust padding for smaller screens */
+    }
+
+    .contact-list {
+        top: 30%; /* Adjust top positioning for smaller screens */
+    }
+
+    h1 {
+        font-size: 36px; /* Responsive font size */
+        text-align: center;
+        margin-left: 20px;
+        margin-top: -150px;
+        
+    }
+
+    h2 {
+        font-size: 24px; /* Responsive font size */
+        text-align: center;
+        margin-left: 60px;
+    }
+}
+@media(max-width: 1363px){
+    .banner {
+        padding: 32px; /* Adjust padding for smaller screens */
+    }
+
+    .contact-list {
+        top: 30%; /* Adjust top positioning for smaller screens */
+    }
+
+    h1 {
+        font-size: 50px; /* Responsive font size */
+        text-align: center;
+        margin-left: 20px;
+        margin-top: -150px;
+        
+    }
+
+    h2 {
+        font-size: 24px; /* Responsive font size */
+        text-align: center;
+        margin-left: 60px;
+    }
+}
+

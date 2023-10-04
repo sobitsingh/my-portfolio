@@ -1,14 +1,15 @@
 .blog1 {
     font-size: 16px;
     background-color: rgb(245, 248, 250); /* Grey background color */
-    height: 20vh; /* 10% of viewport height */
+     /* 10% of viewport height */
     padding: 30px; /* Optional padding for content */
     box-sizing: border-box; /* Include padding in height calculation */
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
     transition: background-color 0.3s; /* Add a smooth background color transition */
     font-family: 'Merriweather', serif;
+    display: flex;
+    align-items: center;
   }
   
   .blog1:hover {
@@ -23,15 +24,28 @@
   }
   
   /* Add your background image */
-  
-  
-  
-  /* Style the content */
-  .author,
+    
+/* Style the content */
+
   .article-title,
-  .link {
+  .published {
     position: relative; /* Create a stacking context for z-index */
     z-index: 1; /* Place the content above the background */
     font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
+  .blog-content {
+    flex: 1;
+    
+    
+  }
+
+  .blog-photo {
+    width: 550px; /* Adjust the width of your photo */
+    height: 200px; /* Adjust the height of your photo */
+    margin-right: 20px;
+    
+  }

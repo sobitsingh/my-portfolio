@@ -34,6 +34,9 @@ const Banner = () => {
                 id="tsparticles"
                init={particlesInit}
                loaded={particlesLoaded}
+               style={{ position: "absolute" }}
+               height="95%"
+               width="95%"
                options={{
                 background: {
                     color: {
@@ -127,7 +130,7 @@ const Banner = () => {
                 <div className="row">
                     <div className="col-12">
                         <h1 className="p-4">Hi, I'm Sobit Singh </h1>
-                        <h2 className="p-1">An AWS Expert Specializing in Seamless Deployments for Web Success</h2>
+                        <h2 className="p-1">An AWS Enthusiast Specializing in Seamless Deployments for Web Success</h2>
                     </div>
                 </div>
             </div>

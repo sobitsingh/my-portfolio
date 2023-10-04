@@ -7,12 +7,14 @@ import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import myphoto from './images/me.jpg';
 import './homepage.css';
+import About from "./about.js";
 import Banner from "./banner.js"
 
 function Homepage() {
   return (
     <div>
       <Banner />
+      <About />
     </div>
     );
   }

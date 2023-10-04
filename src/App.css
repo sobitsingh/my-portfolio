@@ -25,21 +25,21 @@
 
 /* .start {
   font-size: 16px;
-  background-color: rgb(245,248,250); /* Grey background color */
-  height: 46vh; /* 10% of viewport height */
-  padding: 30px; /* Optional padding for content */
-  box-sizing: border-box; /* Include padding in height calculation */
- */
+  background-color: rgb(245,248,250);  Grey background color
+  height: 46vh;  10% of viewport height 
+  padding: 30px;  Optional padding for content 
+  box-sizing: border-box; Include padding in height calculation 
+ } 
 
 
 
 .circular-photo {
-  width: 200px; /* Adjust the width of your photo */
-  height: 200px; /* Adjust the height of your photo */
-  border-radius: 50%; /* Make it circular by setting border-radius to 50% */
-  border: 12px solid #e3eaf2; /* Add a border (customize as needed) */
-  display: block; /* Center the image horizontally */
-  margin: 20px auto; /* Add margin to center the photo vertically */
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  border: 12px solid #e3eaf2; 
+  display: block; 
+  margin: 20px auto; 
   margin-bottom: 20px;
   object-fit: cover;
 }
@@ -69,15 +69,15 @@
 .icon {
   display: flex;
   align-items: center;
-  margin-bottom: 10px; /* Add spacing between icons and text */
+  margin-bottom: 10px; 
 }
 
 .icon svg {
-  margin-right: 10px; /* Add spacing between icon and text */
+  margin-right: 10px; 
 }
 
 .footer {
-  text-align: center; /* Center-align the footer content */
+  text-align: center; 
 }
 
 .footer-content {
@@ -86,3 +86,4 @@
   justify-content: space-between;
   align-items: center;
 }
+*/

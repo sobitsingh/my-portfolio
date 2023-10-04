@@ -6,8 +6,6 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Particles from 'react-tsparticles';
-import { loadFull } from "tsparticles";
-import ParticleConfig from './particleConfig';
 import { useCallback } from "react";
 import { loadSlim } from "tsparticles-slim";
 import './banner.css';
@@ -16,10 +14,6 @@ import './banner.css';
 const Banner = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        //await loadFull(engine);
         await loadSlim(engine);
     }, []);
 
@@ -30,7 +24,7 @@ const Banner = () => {
 
     return (
         <div className="banner d-flex justify-content-center align-items-center">
-            <Particles 
+            <Particles
                 id="tsparticles"
                init={particlesInit}
                loaded={particlesLoaded}
@@ -106,7 +100,7 @@ const Banner = () => {
                 },
                 detectRetina: true,
             }}
-               /> 
+               />
             <div className="banner-contact-me">
                 <ul className="contact-list">
                     <li>
@@ -129,7 +123,7 @@ const Banner = () => {
             <div className="banner-me">
                 <div className="row">
                     <div className="col-12">
-                        <h1 className="p-4">Hi, I'm Sobit Singh </h1>
+                        <h1>Hi, I'm Sobit Singh </h1>
                         <h2 className="p-1">An AWS Enthusiast Specializing in Seamless Deployments for Web Success</h2>
                     </div>
                 </div>

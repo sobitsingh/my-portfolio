@@ -80,7 +80,7 @@ h2{
     }
 }
 
-@media(max-width: 990px){
+@media(max-width: 1024px){
   h1{
     font-size: 54px;
     margin-left: 36px;
@@ -190,16 +190,16 @@ h2{
 }
 
 
-@media(max-width: 420px){
+@media(max-width: 470px){
   h1 {
-  font-size: 48px;
+  font-size: 38px;
   padding: 0;
   margin-left: 64px;
  }
 
   h2{
-  font-size: 17px;
-  margin-left: 70px;
+  font-size: 15px;
+  margin-left: 80px;
   }
 
   .contact-list{

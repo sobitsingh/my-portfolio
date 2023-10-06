@@ -38,3 +38,14 @@
   font-size: 28px;
   cursor: pointer;
 }
+
+@media(max-width: 470px){
+  .navbar-logo{
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+  }
+  .navbar-hamburger{
+    font-size: 18px;
+  }
+}

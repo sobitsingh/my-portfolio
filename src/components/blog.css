@@ -4,8 +4,8 @@
      /* 10% of viewport height */
     padding: 30px; /* Optional padding for content */
     box-sizing: border-box; /* Include padding in height calculation */
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px ;
     transition: background-color 0.3s; /* Add a smooth background color transition */
     font-family: 'Merriweather', serif;
     display: flex;
@@ -39,13 +39,30 @@
   
   .blog-content {
     flex: 1;
-    
+    text-align: justify;
     
   }
 
   .blog-photo {
-    width: 550px; /* Adjust the width of your photo */
+    width: 450px; /* Adjust the width of your photo */
     height: 200px; /* Adjust the height of your photo */
     margin-right: 20px;
     
+  }
+
+  @media(max-width: 1024px){
+    .blog-photo{
+      width: 450px;
+      height: 200px;
+    }
+    .blog1{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media(max-width: 541px){
+    .blog-photo{
+      width: 300px;
+    }
   }

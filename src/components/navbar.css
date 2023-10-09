@@ -15,24 +15,26 @@
   height: 40px;
 }
 
-
 .navbar-hamburger{
   font-size: 28px;
 }
 
+.nav-link{
+  padding: 0;
+}
 
 .nav-link:hover{
   color: #ec241a;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar-right {
+/* .navbar-right {
   display: none;
-}
+} */
 
-.navbar-show .navbar-right {
+/* .navbar-show .navbar-right {
   display: flex;
-}
+} */
 
 .navbar-hamburger {
   font-size: 28px;

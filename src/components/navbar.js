@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg p-4 shadow-sm navbar-me ${isNavbarVisible ? 'navbar-show' : ''}`}>
+    <nav className="navbar navbar-expand-lg p-4 shadow-sm navbar-me">
       <div className="navbar-left">
         <ul className="navbar-nav">
           <li className='nav-item'>
@@ -23,7 +23,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className={`navbar-right ${isNavbarVisible ? 'navbar-right-show' : ''}`}>
+      <div className={`navbar-right ${isNavbarVisible && 'active'}`}>
         <ul className='navbar-nav'>
           <li className="nav-item">
             <Link to="/blog" className="nav-link">Blog</Link>

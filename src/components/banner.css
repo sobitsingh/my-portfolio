@@ -63,6 +63,11 @@ h2{
     font-size: 24px;
     margin-left: 60px;
   }
+
+  .navbar-hamburger{
+    display: none;
+  }
+
 }
 
 @media(max-width: 1240px){
@@ -71,13 +76,18 @@ h2{
     padding: 0;
    }
 
-    .contact-list{
-      top: 24%;
-    }
+  .contact-list{
+    top: 24%;
+  }
 
-    .contact-list li{
-      font-size: 28px;
-    }
+  .contact-list li{
+    font-size: 28px;
+  }
+
+  .navbar-hamburger{
+    display: none;
+  }
+
 }
 
 @media(max-width: 1024px){
@@ -94,6 +104,14 @@ h2{
   .contact-list{
     top: 26%;
   }
+
+  .navbar-right{
+    display: inline-block;
+  }
+
+  .navbar-hamburger{
+    display: none;
+  }
 }
 
 @media(max-width: 768px){
@@ -104,27 +122,6 @@ h2{
 
   h2{
     font-size: 18px;
-  }
-
-  .contact-list {
-    top: 33%;
-  }
-
-  .contact-list li{
-    font-size: 24px;
-  }
-
-
-}
-
-@media(max-width: 660px){
-  h1 {
-      font-size: 42px;
-      padding: 0;
-  }
-
-  h2{
-    font-size: 16px;
   }
 
   .contact-list {
@@ -163,6 +160,78 @@ h2{
   .navbar-hamburger {
     font-size: 28px;
     cursor: pointer;
+    display: block;
+  }
+
+
+}
+
+@media(max-width: 660px){
+  h1 {
+      font-size: 42px;
+      padding: 0;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  .contact-list {
+    top: 33%;
+  }
+
+  .contact-list li{
+    font-size: 24px;
+  }
+
+  .navbar-right{
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    background-color: #FFFEFE;
+    overflow: hidden;
+
+  }
+
+  .navbar-right.active{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding-right: 12px;
+    box-shadow: 0px 4px 6px #88888878;
+    width: 20%;
+    left: 517px;
+  }
+
+
+  .navbar-right ul{
+    display: flex;
+    flex-direction: column;
+    /* width: 20%; */
+    padding: 8px 18px;
+  }
+
+  .navbar-right ul li{
+    margin-right: unset;
+    margin-top: 22px;
+    padding: 7px 6px;
+    width: 100px;
+  }
+
+  .navbar-hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .navbar-right li:hover{
+    background: red;
   }
 }
 
@@ -178,7 +247,6 @@ h2{
     margin-left: 68px;
   }
 
-
   .contact-list {
     top: 33%;
   }
@@ -187,6 +255,40 @@ h2{
     font-size: 24px;
   }
 
+  .navbar-right{
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    width: 0;
+    background-color: #FFFEFE;
+    overflow: hidden;
+
+  }
+
+  .navbar-right.active{
+    width: 270px;
+  }
+
+  .navbar-right ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-right ul li{
+    margin-right: unset;
+    margin-top: 22px;
+  }
+
+  .navbar-hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+  }
 }
 
 
@@ -202,11 +304,42 @@ h2{
   margin-left: 80px;
   }
 
+  .navbar-right{
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background-color: #FFFEFE;
+  }
   .contact-list{
     top: 30%;
   }
 
   .contact-list li{
     font-size: 24px;
+  }
+
+
+  .navbar-right.active{
+    left: 0;
+  }
+
+  .navbar-right-show {
+    display: flex;
+  }
+
+  .navbar-show .navbar-right {
+    display: flex;
+  }
+
+  .navbar-hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
   }
 }

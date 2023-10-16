@@ -1,0 +1,65 @@
+.header-name{
+  font-family: 'Merriweather', serif;
+  font-size: 60px;
+  text-shadow: 2px 2px 0px #212529;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.header-intro{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+}
+
+
+.Blog-Banner h1, h2{
+  margin-left: 0;
+  color: #FFFFFF;
+}
+
+
+.Blog-Banner{
+  background-color: rgb(38, 42, 86);
+  width: 100%;
+  height: calc(77vh - 32px);
+}
+
+
+.banner-pic{
+  border-radius: 50%;
+  width: 330px;
+  height: 410px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to right, #c47f00, #c3c32e) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+
+@media(max-width: 1024px){
+  .Blog-Banner .header-intro{
+    font-size: 35px;
+  }
+
+  .Blog-Banner .header-name{
+    font-size: 50px
+  }
+
+}
+
+@media(max-width: 770px){
+  .Blog-Banner .header-intro{
+    font-size: 24px;
+  }
+
+  .Blog-Banner .header-name{
+    font-size: 40px
+  }
+
+  .banner-pic{
+    width: 300px;
+    height: 300px;
+  }
+}

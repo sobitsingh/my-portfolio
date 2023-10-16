@@ -1,61 +1,92 @@
-.blog1 {
-    font-size: 16px;
-    background-color: rgb(245, 248, 250); /* Grey background color */
-     /* 10% of viewport height */
+.blog{
+  background-color: #F6F7FB;
+}
+
+
+.my-blog {
+    /* font-size: 16px; */
+    color: #262A56;
+    background-color: #FFFFFF;
     padding: 30px; /* Optional padding for content */
-    box-sizing: border-box; /* Include padding in height calculation */
-    margin-bottom: 10px;
+    /* box-sizing: border-box;  */
+    margin-bottom: 20px;
     margin-top: 20px ;
     transition: background-color 0.3s; /* Add a smooth background color transition */
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     display: flex;
     align-items: center;
+    border-radius: 8px;
   }
-  
-  .blog1:hover {
-    background-color: rgb(220, 220, 220); /* Change background color on hover */
-  }
-  
-  .blog1-link {
-    display: block; /* Make the entire div clickable */
-    text-decoration: none; /* Remove default link underline */
-    color: inherit; /* Inherit text color from parent */
-    font-family: 'Merriweather', serif;
-  }
-  
-  /* Add your background image */
-    
-/* Style the content */
 
-  .article-title,
-  .published {
-    position: relative; /* Create a stacking context for z-index */
-    z-index: 1; /* Place the content above the background */
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.my-blog:hover {
+  box-shadow: rgba(0, 44, 155, 0.15) 0px 10px 20px -2px;
+  transform: translateY(-4px);
+}
+
+.blog-readmore{
+  text-decoration: none;
+}
+
+.blog-readmore:hover{
+  color: none;
+}
+
+
+  .blog1-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
   }
-  
+
+  .blog-article-title,
+  .blog-published {
+    /* position: relative;  */
+    /* z-index: 1; */
+    font-weight: bold;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: inter;
+  }
+
+
+  .blog-published{
+    color: #A8A4A4;
+    font-size: 14px;
+  }
+
   .blog-content {
     flex: 1;
     text-align: justify;
-    
   }
 
   .blog-photo {
-    width: 450px; /* Adjust the width of your photo */
-    height: 200px; /* Adjust the height of your photo */
+    width: 450px;
     margin-right: 20px;
-    
+    border-radius: 4px;
+    /* object-fit: cover; */
   }
 
   @media(max-width: 1024px){
     .blog-photo{
-      width: 450px;
+      width: 350px;
       height: 200px;
     }
-    .blog1{
+    /* .my-blog{
+      display: flex;
+      flex-direction: column;
+    } */
+  }
+
+  @media(max-width: 770px){
+    .blog-photo{
+      width: 460px;
+      height: 200px;
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+
+     .my-blog{
       display: flex;
       flex-direction: column;
     }
@@ -64,5 +95,13 @@
   @media(max-width: 541px){
     .blog-photo{
       width: 300px;
+
     }
+
+    .my-blog{
+      display: flex;
+      flex-direction: column;
+      width: 360px;
+    }
+
   }

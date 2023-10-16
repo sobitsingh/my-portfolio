@@ -2,7 +2,7 @@ body{
   text-align: center;
 }
 
-h1{
+.banner-me h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
@@ -13,7 +13,7 @@ h1{
 
 }
 
-h2{
+.banner-me h2{
   color: #A8A196;
   text-shadow: 0px 0px 1px #A8A196;
 }
@@ -44,7 +44,7 @@ h2{
   color: #272829;
 }
 
-.contact-list li:hover ,a:hover{
+.contact-list li:hover ,.contact-list-icon:hover{
   color: #ec241a;
   transition: all 0.3s ease-in-out;
   /* border-radius: 4px; */
@@ -55,11 +55,11 @@ h2{
       top: 29%;
   }
 
-  h1 {
+  .banner-me h1 {
     font-size: 86px;
   }
 
-  h2 {
+  .banner-me h2 {
     font-size: 24px;
     margin-left: 60px;
   }
@@ -71,10 +71,10 @@ h2{
 }
 
 @media(max-width: 1240px){
-   h1{
-    font-size: 60px;
-    padding: 0;
-   }
+  .banner-me h1{
+  font-size: 60px;
+  padding: 0;
+  }
 
   .contact-list{
     top: 24%;
@@ -91,13 +91,13 @@ h2{
 }
 
 @media(max-width: 1024px){
-  h1{
+  .banner-me h1{
     font-size: 54px;
     margin-left: 36px;
     padding: 0;
   }
 
-  h2{
+  .banner-me h2{
     font-size: 20px;
     margin-left: 70px;
   }
@@ -115,12 +115,12 @@ h2{
 }
 
 @media(max-width: 768px){
-  h1 {
-      font-size: 48px;
-      padding: 0;
+  .banner-me h1 {
+    font-size: 48px;
+    padding: 0;
   }
 
-  h2{
+  .banner-me h2{
     font-size: 18px;
   }
 
@@ -167,12 +167,12 @@ h2{
 }
 
 @media(max-width: 660px){
-  h1 {
-      font-size: 42px;
-      padding: 0;
+  .banner-me h1 {
+    font-size: 42px;
+    padding: 0;
   }
 
-  h2{
+  .banner-me h2{
     font-size: 16px;
   }
 
@@ -236,13 +236,13 @@ h2{
 }
 
 @media(max-width: 550px){
-  h1 {
-      font-size: 48px;
-      padding: 0;
-      margin-left: 64px;
+  .banner-me h1 {
+    font-size: 48px;
+    padding: 0;
+    margin-left: 64px;
   }
 
-  h2{
+  .banner-me h2{
     font-size: 18px;
     margin-left: 68px;
   }
@@ -293,15 +293,15 @@ h2{
 
 
 @media(max-width: 470px){
-  h1 {
-  font-size: 38px;
-  padding: 0;
-  margin-left: 64px;
- }
+  .banner-me h1 {
+    font-size: 38px;
+    padding: 0;
+    margin-left: 64px;
+  }
 
-  h2{
-  font-size: 15px;
-  margin-left: 80px;
+  .banner-me h2{
+    font-size: 15px;
+    margin-left: 80px;
   }
 
   .navbar-right{

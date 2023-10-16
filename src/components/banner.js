@@ -104,19 +104,19 @@ const Banner = () => {
             <div className="banner-contact-me">
                 <ul className="contact-list">
                     <li>
-                        <a href="mailto:sobitsingh007@gmail.com" className="text text-decoration-none"><FontAwesomeIcon icon={faEnvelope} /></a>
+                        <a href="mailto:sobitsingh007@gmail.com" className="text text-decoration-none contact-list-icon"><FontAwesomeIcon icon={faEnvelope} /></a>
                     </li>
                     <li>
-                        <a href="tel:+8108071944350" className="text text-decoration-none"><FontAwesomeIcon icon={faPhone} /></a>
+                        <a href="tel:+8108071944350" className="text text-decoration-none contact-list-icon"><FontAwesomeIcon icon={faPhone} /></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/sobitsingh007" className="text text-decoration-none"><FontAwesomeIcon icon={faTwitter} /></a>
+                        <a href="https://twitter.com/sobitsingh007" className="text text-decoration-none contact-list-icon"><FontAwesomeIcon icon={faTwitter} /></a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/__sobit_007" className="text text-decoration-none"> <FontAwesomeIcon icon={faSquareInstagram} /></a>
+                        <a href="https://instagram.com/__sobit_007" className="text text-decoration-none contact-list-icon"> <FontAwesomeIcon icon={faSquareInstagram} /></a>
                     </li>
                     <li>
-                        <a href="https://github.com/sobitsingh" className="text text-decoration-none"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a href="https://github.com/sobitsingh" className="text text-decoration-none contact-list-icon"><FontAwesomeIcon icon={faGithub} /></a>
                     </li>
                 </ul>
             </div>
